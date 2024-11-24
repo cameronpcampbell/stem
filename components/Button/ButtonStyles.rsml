@@ -1,0 +1,27 @@
+ImageButton {
+    AutomaticSize = Enum.AutomaticSize.XY;
+    
+    ::UIPadding {
+        PaddingLeft = 10px;
+        PaddingRight = 10px;
+        PaddingTop = 10px;
+        PaddingBottom = 10px
+    }
+
+    ::UIListLayout {
+        FillDirection = Enum.FillDirection.Horizontal;
+        VerticalAlignment = Enum.VerticalAlignment.Center;
+        Padding = 10px
+    }
+
+    TextLabel {
+        AutomaticSize = Enum.AutomaticSize.XY;
+        TextSize = 14;
+        BackgroundTransparency = 1
+    }
+
+    ImageLabel {
+        Size = udim2 (14px, 14px);
+        BackgroundTransparency = 1
+    }
+}
